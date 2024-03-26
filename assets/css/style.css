@@ -35,6 +35,18 @@ body {
   justify-content: center;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: silver;
+}
+
+a:hover {
+  color: orangered;
+}
+
 #portrait {
   border-radius: 50%;
   background-color: black;
