@@ -47,6 +47,7 @@ a:hover {
   color: orangered;
 }
 
+
 #portrait {
   border-radius: 50%;
   background-color: black;
@@ -78,14 +79,24 @@ main {
   margin-top: 2%;
 }
 
-#cardimage {
-   
-  width: 300px;
-  height: 300px;
-  border-radius: 20%;
+/*
+p {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+*/
 
+#cardimage {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
 }
 
+#cardimage:hover {
+  width: 300px;
+  height: 300px;
+}
 
 .card {
   display: flex;
