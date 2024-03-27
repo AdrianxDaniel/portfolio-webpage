@@ -6,9 +6,10 @@ HASHTAGS (#) are for ID's
  */
 
 :root {
-  --border-color: black;
-  --footerTC-hovlinks: black;
-  --gradient-background-colors: silver;
+  --border-color: orangered;
+  --footerTC-hovlinks: orangered;
+  --gradient-background-colors: black;
+  --card-gradient: silver;
 }
 
 
@@ -16,12 +17,10 @@ HASHTAGS (#) are for ID's
   box-sizing: border-box;
 }
 
-header,
-footer {
+header {
   width: 100%;
   text-align: center;
-  background: linear-gradient(to top, var(--gradient-background-colors), gray);
-  color: var(--footerTC-hovlinks);
+  background: linear-gradient(to top, var(--gradient-background-colors), silver);
 }
 
 header {
@@ -30,6 +29,10 @@ header {
 }
 
 footer {
+ width: 100%;
+  text-align: center;
+  background: linear-gradient(to top, var(--gradient-background-colors), black);
+  color: var(--footerTC-hovlinks);
   padding: 10px;
   margin-top: 100px;
   font-size: larger;
@@ -42,7 +45,7 @@ border-radius: 50%;
 }
 
 body {
-  background: linear-gradient(to bottom, var(--gradient-background-colors), black);
+  background: linear-gradient(to bottom, var(--gradient-background-colors), silver);
 }
 
 .myphoto {
@@ -76,7 +79,6 @@ a:hover {
 
 #aboutme-title {
   flex-wrap: wrap;
-  font-size: 20px;
   font-family: Calibri;
   margin: 0px;
   color: white;
@@ -85,13 +87,13 @@ a:hover {
 }
 
 #about-me {
+   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  font-size: 20px;
+  background-color: none;
   font-family: Calibri;
   margin: 0px;
   color: white;
-  text-align: center;
-  object-fit: contain;
 }
 
 h1 {
@@ -133,7 +135,7 @@ main {
   display: flex;
   flex-direction: column;
   color: white;
-  background: linear-gradient(to top, var(--gradient-background-colors), gray);
+  background: linear-gradient(to top, var(--gradient-background-colors), black);
   border: 5px solid var(--border-color);
   padding: 5px;
   width: 400px;
