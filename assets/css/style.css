@@ -5,6 +5,13 @@ DOTS (.) are for classes,
 HASHTAGS (#) are for ID's 
  */
 
+:root {
+  --border-color: black;
+  --footerTC-hovlinks: black;
+  --gradient-background-colors: silver;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -13,13 +20,13 @@ header,
 footer {
   width: 100%;
   text-align: center;
-  background-color: black;
-  color: orangered;
+  background: linear-gradient(to top, var(--gradient-background-colors), gray);
+  color: var(--footerTC-hovlinks);
 }
 
 header {
   border-radius: 80px;
-  border: 5px solid orangered;
+  border: 5px solid var(--border-color);
 }
 
 footer {
@@ -33,7 +40,7 @@ border-radius: 50%;
 }
 
 body {
-  background: linear-gradient(to bottom, black, silver);
+  background: linear-gradient(to bottom, var(--gradient-background-colors), black);
 }
 
 .myphoto {
@@ -50,13 +57,13 @@ a:visited {
 }
 
 a:hover {
-  color: orangered;
+  color: var(--footerTC-hovlinks);
 }
 
 #portrait {
   border-radius: 50%;
-  background-color: black;
-  border: 5px solid orangered;
+  background-color: var(--gradient-background-colors);
+  border: 5px solid var(--border-color);
   padding: 5px;
 }
 
@@ -113,8 +120,8 @@ main {
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: black;
-  border: 5px solid orangered;
+  background: linear-gradient(to top, var(--gradient-background-colors), gray);
+  border: 5px solid var(--border-color);
   padding: 5px;
   width: 400px;
   height: 500px;
