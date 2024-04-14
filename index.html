@@ -1,121 +1,175 @@
+<!--
+Header, Section, Main, div, p, pre, figure, figcaption, img, footer, 
+a, link, nav, article, ul, li, h1-h6, form, label, hero
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!--
-Header, Section, Main, div, p, pre, figure, figcaption, img, footer, 
-a, link, nav, article, ul, li, h1-h6, form, label
--->
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Daniel's Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <h1>Adrian Daniel Tapia</h1>
-            </ul>
-            <ul>
-                <li><a href="#aboutme-title">About Me</a></li>
-                <li><a href="#card">Projects</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
-    <section class="myphoto">
-        <figure>
-            <img id="portrait" src="./assets/images/SF-PETCO.jpg" width="400px"
-                alt="Myself supporting SF Giants @ PETCO Park">
-        </figure>
+    <section id="a-a" style="max-height: 0px;">
+        <section class="label-text brute-alt-away" style="color: white;">Alternate</section>
+        <label>
+            <input type="checkbox" value="synthwave" class="toggle theme-controller" />
+        </label>
+        <section class="label-text brute-alt-away" style="color: white;">Away</section>
     </section>
-    <section class="about-me">
-        <article>
-            <h2 id="aboutme-title" style="font-size: 30px;">About Me</h2>
-            <p id="about-me" style="font-size: 18px;">
-                I consider myself a dynamic individual with a wide range of interests and a resilient attitude towards
-                life's challenges.
-                Despite facing setbacks in my academic journey, such as not being accepted into my school's Nursing
-                Program due to its
-                limited spots and a huge applicant pool, I've always remained determined and focused on my goals. My
-                educational background
-                spans across Criminal Justice and Nursing, and I've gained valuable experience in the logistics industry
-                over the past
-                eight years. In my current role, I take pride in meticulously managing logistics operations, ensuring
-                smooth cargo flow,
-                and addressing any issues that arise along the way. However, beyond my professional endeavors, my true
-                passion lies in
-                the realm of creativity and technology. I often find myself immersed in brainstorming ideas for games
-                and contemplating
-                ways to enhance existing ones. This passion has led me to embark on a journey to learn programming, as I
-                believe it holds
-                the key to realizing my dreams of bringing my imaginative ideas to life. Furthermore, I've always viewed
-                myself as someone
-                with a strong temperament. While some may perceive a strong temper as easily getting agitated, I see it
-                as the ability to maintain
-                composure and channel emotions into productive outcomes. This trait has helped me navigate life's ups
-                and downs with resilience and grace.
-            </p>
-        </article>
+    <section class="hero min-h-screen bg-base-200" id="top">
+        <section class="hero-content flex-col lg:flex-row">
+            <img src="./assets/images/SF-PETCO.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+            <section>
+                <span>
+                    <h1 class="text-5xl font-bold" style="color: black; text-align: center;">Adrian Daniel
+                        Tapia</h1>
+                </span>
+                <section>
+                    <section>
+                        <p class="py-2" style=" text-align: center; font-size: 20px; color: black;">Welcome to
+                            my
+                            Portfolio Webpage!</p>
+                    </section>
+                    <a href="#startups"><button class="btn btn-primary hero-btn">Startups
+                        </button></a>
+                    <a href="#projects"><button class="btn btn-primary hero-btn">Projects
+                        </button></a>
+                    <a href="#about-me"><button class="btn btn-primary hero-btn">About
+                            Me</button></a>
+                    <a href="#contact-me"><button class="btn btn-primary hero-btn">Contact
+                            Me</button></a>
+                </section>
+            </section>
+        </section>
     </section>
-    <br>
-
-    <main id="card">
-
-        <section class="card">
-            <h2>Project: Study Guide</h2>
-            <a href="https://adrianxdaniel.github.io/prework-study-guide/"><img id="cardimage"
-                    src="./assets/images/studyguide.png" alt="studyguide image"></a>
-            <p>Here begins a new journey into the tech field!</p>
+    <main class="hero min-h-screen bg-base-200" id="about-me">
+        <section class="hero-content text-center">
+            <section class="max-w-md">
+                <h2 class="text-5xl font-bold" style="color: black; text-shadow: -1px -1px silver;">About Me</h2>
+                <p class="py-6" style="color: black;">I consider myself a dynamic individual with a wide range of
+                    interests and a resilient
+                    attitude towards
+                    life's
+                    challenges. Despite facing setbacks in my academic journey, such as not being accepted into my
+                    school's
+                    Nursing Program
+                    due to its limited spots and a huge applicant pool, I've always remained determined and focused on
+                    my
+                    goals.
+                    My
+                    educational background spans across Criminal Justice and Nursing, and I've gained valuable
+                    experience in
+                    the
+                    logistics
+                    industry over the past eight years. In my current role, I take pride in meticulously managing
+                    logistics
+                    operations,
+                    ensuring smooth cargo flow, and addressing any issues that arise along the way. However, beyond my
+                    professional
+                    endeavors, my true passion lies in the realm of creativity and technology. I often find myself
+                    immersed
+                    in
+                    brainstorming
+                    ideas for games and contemplating ways to enhance existing ones. This passion has led me to embark
+                    on a
+                    journey to learn
+                    programming, as I believe it holds the key to realizing my dreams of bringing my imaginative ideas
+                    to
+                    life.
+                    Furthermore,
+                    I've always viewed myself as someone with a strong temperament. While some may perceive a strong
+                    temper
+                    as
+                    easily
+                    getting agitated, I see it as the ability to maintain composure and channel emotions into productive
+                    outcomes. This
+                    trait has helped me navigate life's ups and downs with resilience and grace.</p>
+            </section>
         </section>
-
-        <section class="card">
-            <h2>Project: Refactor</h2>
-            <a href="https://adrianxdaniel.github.io/semantic-elements/"><img id="cardimage"
-                    src="./assets/images/code refactor.png" alt="RefactorImage"></a>
-            <p>Semantics</p>
-        </section>
-
-        <section class="card">
-            <h2>Project: Portfolio</h2>
-            <a href="https://adrianxdaniel.github.io/portfolio-webpage/"><img id="cardimage" src="./assets/images/SF-PETCO.jpg" alt="myPortaitImage"></a>
-            <p>Here we started our Portfolio Webpage</p>
-        </section>
-
-        <section class="card">
-            <h2>Project: Deltas Blog</h2>
-            <a href="https://adrianxdaniel.github.io/my-first-blog/"><img id="cardimage" src="./assets/images/blog-icon.jpg" alt="Text input block"></a>
-            <p>Initial stages of Deltas Blog</p>
-        </section>
-
-        <section class="card">
-            <h2>Project: Task Planner</h2>
-            <a href="https://adrianxdaniel.github.io/task-planner/"><img id="cardimage" src="./assets/images/taskPlanner.jpg"
-                    alt="Clipboard with tasks checked"></a>
-            <p>A Task Planner for easy development schedule.</p>
-        </section>
-
-        <section class="card">
-            <h2>Project: TBC</h2>
-            <a href="./assets/images/construction.webp"><img id="cardimage" src="./assets/images/tbc.jpg"
-                    alt="ToBeContinuedImage"></a>
-            <p>---------UNDER CONSTRUCTION--------
-            <pre>More projects will be listed as we 
-create them.</pre>
-            </p>
-        </section>
-
     </main>
-    <br>
-
+    <main class="custom-b" id="projects">
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-school" style="margin-top: 25px; font-size: 100px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Study Guide</h2>
+                <p>Here begins a new journey into the tech field!</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-arrows-spin" style="margin-top: 25px; font-size: 100px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Refactor</h2>
+                <p>Semantics.</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-briefcase" style="margin-top: 25px; font-size: 100px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Portfolio</h2>
+                <p>Here we started our Portfolio Webpage.</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure style="margin-top: 25px; font-size: 90px;">♢</figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Deltas Blog</h2>
+                <p>Initial stages of Deltas Blog</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-list-check" style="margin-top: 25px; font-size: 100px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Task Planner</h2>
+                <p>A Task Planner for easy development schedule.</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-cloud-sun-rain" style="margin-top: 25px; font-size: 100px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: Weather Report</h2>
+                <p>A weather app to check five day forecast.</p>
+                <section class="card-actions justify-end">
+                    <button class="btn btn-primary">Visit</button>
+                </section>
+            </section>
+        </section>
+        <section class="card w-96 glass">
+            <figure><i class="fa-solid fa-screwdriver-wrench" style="margin-top: 20px; font-size: 98px;"></i></figure>
+            <section class="card-body">
+                <h2 class="card-title">Project: TBC</h2>
+                <p>---------UNDER CONSTRUCTION--------</p>
+                <section class="card-actions justify-end">
+                    <a href="./assets/images/construction.webp"><button class="btn btn-primary">Visit</button></a>
+                </section>
+            </section>
+        </section>
+    </main>
     <footer>
-        <section id="contact-me">
-            <p style="font-size: larger;">CONTACT ME</p>
-            <div>
+        <section id="contact-me" style="color: white;">
+            <p style="font-size: larger; text-align: center; margin-bottom: 10px;">Contact Me</p>
+            <section>
                 <a href="https://discord.com/channels/@ikail.i2"><img class="contact-me"
                         src="./assets/images/discord.png" alt="Discord"></a>
                 <a href="https://www.instagram.com/danieltapia.i/"><img class="contact-me"
@@ -124,17 +178,14 @@ create them.</pre>
                         alt="X"></a>
                 <a href="https://github.com/AdrianxDaniel"><img class="contact-me" src="./assets/images/github.png"
                         alt="Github"></a>
-            </div>
-
+            </section>
+            <p style="text-align: center; margin-top: 10px;">&copy; My Portfolio </p>
+            <a href="#top" style="text-align: center; margin: 55px;">-- Back to Top --</a>
         </section>
-        <br>
-        &copy; My Portfolio
-
     </footer>
-
-
+    <script src="https://kit.fontawesome.com/c4f19dac00.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
-
-
 
 </html>
